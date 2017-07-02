@@ -25,16 +25,17 @@ public class task7 {
                 ar[i] = sc.nextInt();
             }
         }
+
         for (int j = 0; j < m; j++) {
             System.out.print(ar[j] + " ");
             if (ar[j] > 0) {
-                ar[j] = ar[j] * ar[j];
+                ar[j] *= ar[j];
             }
             if (ar[j] < 0) {
                 ar[j] = Math.abs(ar[j]);
             }
-
         }
+
         System.out.println();
         for (int l = 0; l < m; l++) {
             System.out.print(ar[l] + " ");
