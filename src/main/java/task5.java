@@ -34,7 +34,7 @@ public class task5 {
                 elemMin = ar[j];
                 jMin = j;
             }
-            if (ar[j] > elemMax) {
+            else if (ar[j] > elemMax) {
                 elemMax = ar[j];
                 jMax = j;
             }

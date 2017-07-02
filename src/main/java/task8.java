@@ -21,6 +21,7 @@ public class task8 {
         int[] ar = new int[m];
         int countSubZero = 0;
         int countAboveZero = 0;
+
         for (int i = 0; i < m; i++) {
             if (sc.hasNextInt()) {
                 ar[i] = sc.nextInt();
@@ -31,8 +32,8 @@ public class task8 {
             if (ar[i] < 0) {
                 countSubZero++;
             }
-
         }
+
         System.out.println();
         for (int l = 0; l < m; l++) {
             System.out.print(ar[l] + " ");

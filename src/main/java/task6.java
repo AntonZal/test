@@ -17,6 +17,7 @@ public class task6 {
             System.out.println("Введены некорректные данные");
             System.exit(1);
         }
+
         System.out.println("Введите целочисленные значения элементов массива");
         int[] ar = new int[m];
         int count = 0;
@@ -28,11 +29,11 @@ public class task6 {
                 count++;
             }
         }
+
         for (int l = 0; l < m; l++) {
             System.out.print(ar[l] + " ");
         }
         System.out.println();
-
         System.out.println("количество отрицательных элементов:" + count);
 
     }
