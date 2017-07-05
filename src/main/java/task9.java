@@ -29,13 +29,21 @@ public class task9 {
                 ars.add(sc.nextInt());
             }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
         System.out.println(ars);
         int count;
         int aboveDouble;
         for (int i = 0; i < ars.size(); i++) {
             count = 0;
             for (int j = 0; j < ars.size(); j++) {
+<<<<<<< HEAD
                 if (ars.get(j) == ars.get(i)) {
+=======
+                if (ars.get(j).equals(ars.get(i))) {
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
                     count++;
                 }
             }

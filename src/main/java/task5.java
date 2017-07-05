@@ -34,7 +34,11 @@ public class task5 {
                 elemMin = ar[j];
                 jMin = j;
             }
+<<<<<<< HEAD
             if (ar[j] > elemMax) {
+=======
+            else if (ar[j] > elemMax) {
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
                 elemMax = ar[j];
                 jMax = j;
             }
