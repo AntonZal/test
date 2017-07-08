@@ -29,14 +29,29 @@ public class task9 {
                 ars.add(sc.nextInt());
             }
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         System.out.println(ars);
         int count;
         int aboveDouble;
         for (int i = 0; i < ars.size(); i++) {
             count = 0;
             for (int j = 0; j < ars.size(); j++) {
+<<<<<<< HEAD
                 if (ars.get(j).equals(ars.get(i))) {
+=======
+<<<<<<< HEAD
+                if (ars.get(j) == ars.get(i)) {
+=======
+                if (ars.get(j).equals(ars.get(i))) {
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
                     count++;
                 }
             }

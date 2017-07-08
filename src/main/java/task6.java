@@ -17,7 +17,14 @@ public class task6 {
             System.out.println("Введены некорректные данные");
             System.exit(1);
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         System.out.println("Введите целочисленные значения элементов массива");
         int[] ar = new int[m];
         int count = 0;
@@ -29,11 +36,25 @@ public class task6 {
                 count++;
             }
         }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         for (int l = 0; l < m; l++) {
             System.out.print(ar[l] + " ");
         }
         System.out.println();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         System.out.println("количество отрицательных элементов:" + count);
 
     }

@@ -4,8 +4,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+<<<<<<< HEAD
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+=======
+<<<<<<< HEAD
+=======
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
 import pages.HomePage;
 
 import java.util.List;
@@ -19,6 +27,12 @@ public class WebTest {
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        driver.navigate().to("https://onliner.by");
+=======
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         driver.navigate().to("https://ya.ru");
 
         // #text
@@ -55,6 +69,10 @@ public class WebTest {
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
 
         List<WebElement> titles = driver.findElements(By.cssSelector("h3.b-tile-header"));
 

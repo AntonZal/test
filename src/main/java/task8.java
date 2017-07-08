@@ -21,7 +21,14 @@ public class task8 {
         int[] ar = new int[m];
         int countSubZero = 0;
         int countAboveZero = 0;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         for (int i = 0; i < m; i++) {
             if (sc.hasNextInt()) {
                 ar[i] = sc.nextInt();
@@ -32,8 +39,18 @@ public class task8 {
             if (ar[i] < 0) {
                 countSubZero++;
             }
+<<<<<<< HEAD
         }
 
+=======
+<<<<<<< HEAD
+
+        }
+=======
+        }
+
+>>>>>>> bdc141c9098e8347bee30d211cee5dc85e20735f
+>>>>>>> 691785416e61a0e54478b17a9a0afd54b7f2b7d9
         System.out.println();
         for (int l = 0; l < m; l++) {
             System.out.print(ar[l] + " ");
